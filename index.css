@@ -1,0 +1,78 @@
+form {
+    border: 10px rgba(170, 28, 28, 0.921);
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-style: groove;
+}
+
+#results {
+    border: 10px solid #d3d3d3;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: cursive, lucida handwriting;
+    color: white;
+    background-image: url("images/city.png");
+    border-style: dotted;
+}
+
+img {
+    width: 550px;
+    height: 200px;
+}
+
+#second {
+    background-color: white;
+    color: rgba(111, 25, 25, 0.798);
+}
+
+#first {
+    background-color: white;
+    font-family: cursive, lucida handwriting;
+    color:rgba(170, 28, 28, 0.921);
+}
+
+#submit-btn:hover {
+    background-color: #ffffff95;
+    font-family: fantasy, papyrus;
+}
+
+#submit-btn {
+    font-family: fantasy, papyrus;
+}
+
+label {
+    font-family: fantasy, papyrus;
+}
+
+#vehicle {
+    font-family: fantasy, papyrus;
+}
+
+#vehicle:hover {
+    background-color: #f1dede;
+}
+
+input:hover {
+    background-color: #f1dede;
+}
+
+#return-btn{
+    font-family: fantasy, papyrus;
+}
+
+#return-btn:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <script type="module"></script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gabrielle Oh</title>
+        <style>
+            body {
+                background-image: url("images/zombies.png");
+                height: 140vh;
+                background-size: cover;
+                background-position: center;
+            }
+            div { 
+                width: 546px;
+                height: 85px;
+                background-color: white;
+                padding: 2rm;
+            }
+            div:hover {
+                background-color: rgb(192, 44, 44);
+                
+            }
+            p {
+             font-family: fantasy, papyrus;
+             }
+        </style>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form action="results.html" methods="get">
+            <h1 id="first">Would you survive a zombie apocalyspe?</h1>
+            <p id="second"> Have you ever wondered if you have what it takes to defend yourself? Answer these questions to find out!</p>
+
+            <div>
+                <label for="fname">1. What is your name?</label>
+                <input type="text" id="'fname" name="fname" required>
+            </div>
+
+            <div>
+                <p>2. How many pounds of luggage will you bring (percent of body weight)?</p>
+                <input type="radio" id="5%" name="luggage" value="5%">
+                <label for="5%">5%</label>
+
+                <input type="radio" id="10%" name="luggage" value="10%">
+                <label for="10%">10%</label>
+
+                <input type="radio" id="15%" name="luggage" value="15%">
+                <label for="15%">15%</label>
+
+                <input type="radio" id="20%" name="luggage" value="20%">
+                <label for="20%">20%</label>
+
+                <input type="radio" id="25%" name="luggage" value="25%">
+                <label for="25%">25%</label>
+            </div>
+
+            <div>
+                <p>3. What weapon(s) would you use?</p>
+                <input type="radio" id="gun" name="weapon" value="gun">
+                <label for="gun">Gun</label>
+
+                <input type="radio" id="pocket knife" name="weapon" value="pocket knife">
+                <label for="pocket knife">Pocket Knife</label>
+
+                <input type="radio" id="machete" name="weapon" value="machete">
+                <label for="machete">Machete</label>
+
+                <input type="radio" id="spiked bat" name="weapon" value="spiked bat">
+                <label for="spiked bat">Spiked Bat</label>
+
+                <input type="radio" id="shield" name="weapon" value="shield">
+                <label for="shield">Shield</label>
+
+                <input type="radio" id="all" name="weapon" value="all">
+                <label for="all">All</label>
+                
+            </div>
+
+            <div>
+                <p>4. Who would you bring with you to escape to a safe refugee camp?</p>
+                <input type="radio" id="childhood friend" name="companion" value="childhood friend">
+                <label for="childhood friend">Childhood Friend</label>
+
+                <input type="radio" id="whole family" name="companion" value="whole family">
+                <label for="whole family">Whole Family</label>
+
+                <input type="radio" id="war veteran" name="companion" value="war veteran">
+                <label for="war veteran">War Veteran</label>
+
+                <input type="radio" id="lover" name="companion" value="lover">
+                <label for="lover">Lover</label>
+
+                <input type="radio" id="all" name="companion" value="all">
+                <label for="all">All</label>
+
+                <input type="radio" id="no one" name="companion" value="no one">
+                <label for="no one">No One</label>
+            </div>
+
+            <div>
+                <p>5. Where would you/you all sleep overnight?</p>
+                <input type="radio" id="abandoned homes" name="shelter" value="abandoned homes">
+                <label for="abanoned homes">Abandoned Homes</label>
+
+                <input type="radio" id="sewage systems" name="shelter" value="sewage systems">
+                <label for="sewage systems">Sewage Systems</label>
+
+                <input type="radio" id="abandoned gas station" name="shelter" value="abandoned gas station">
+                <label for="abandoned gas station">Abandoned Gas Station</label>
+
+                <input type="radio" id="subway station" name="shelter" value="subway station">
+                <label for="subway station">Subway Station</label>
+            </div>
+
+            <div>
+                <p>6. If someone in your group was gravely injured, what would you do?</p>
+                <input type="radio" id="misery" name="morale" value="misery">
+                <label for="misery">Put him/her out of his/her misery</label>
+
+                <input type="radio" id="help" name="morale" value="help">
+                <label for="help">Give him/her first aid</label>
+
+            </div>
+
+            <div>
+                <form action = "#">
+                    <label for = "vehicle">7. Would you/you all travel by vehicle?</label>
+                    <select id = "vehicle" name="vehicle">
+                        <option value = "Yes">Yes</option>
+                        <option value = "No">No</option>
+                    </select>
+                </form>
+
+            <div>
+                <input id="submit-btn" type="submit" value="Submit">
+            </div>
+        
+        </form>
+    </body>
+</html>
